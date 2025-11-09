@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Agriculture Field</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #2e7d32;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .intro, .about, .tech, .gallery, .contact {
+      margin-top: 40px;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .images img {
+      max-width: 100%;
+      height: auto;
+      flex: 1 1 calc(33% - 20px);
+    }
+    ul {
+      list-style: disc inside;
+      padding-left: 20px;
+    }
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .flex-row > div {
+      flex: 1 1 300px;
+    }
+    footer {
+      background: #e0e0e0;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      .images img {
+        flex: 1 1 100%;
+      }
+      .flex-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Smart Agriculture Field</h1>
+    <p>Harnessing technology to revolutionize farming</p>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#about">About</a>
+      <a href="#technology">Technology</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Section 1: Overview -->
+  <section id="overview" class="intro">
+    <h2>Project Overview</h2>
+    <p>This project integrates IoT sensors, automation, and data analytics to optimize crop yield, monitor soil health, and manage irrigation efficiently.</p>
+    <div class="images">
+      <img src="https://www.bisinfotech.com/wp-content/uploads/2022/03/Top-5-Sensors-Used-in-Smart-Farming-.jpg" alt="IoT sensors in farming">
+      <img src="https://www.cropin.com/wp-content/uploads/2021/10/f-1024x683.webp" alt="Smart agriculture field">
+      <img src="https://geopard.tech/wp-content/uploads/2022/01/1-preview.jpg" alt="Drone in agriculture">
+    </div>
+  </section>
+
+  <!-- Section 2: About -->
+  <section id="about" class="about">
+    <h2>About This Project</h2>
+    <p>With increasing global population and climate change, agriculture needs smarter methods. This project demonstrates how modern tools can empower farmers.</p>
+
+    <h3>Scope</h3>
+    <p>We focus on small/medium farms, incorporate sensor networks (temperature, humidity, soil moisture), wireless communication (Wi-Fi, LoRa), cloud analytics and AI for crop prediction.</p>
+
+    <h3>Objectives</h3>
+    <ul>
+      <li>Deploy sensor network across field</li>
+      <li>Automate irrigation based on soil moisture & weather</li>
+      <li>Use AI to predict yield and detect anomalies</li>
+      <li>Provide dashboard for monitoring and alerts</li>
+    </ul>
+
+    <div class="images">
+      <img src="https://img.thingsboard.io/usecases/smart-farming/smart-farming-2.webp" alt="Smart farming use case">
+      <img src="https://cdsentec.com/wp-content/uploads/2022/08/How-IoT-and-Smart-Agriculture-Sensors-are-Reshaping-Farming-1024x536.png" alt="IoT sensors agriculture">
+      <img src="https://www.mdpi.com/applsci/applsci-12-03396/article_deploy/html/images/applsci-12-03396-g001.png" alt="Architecture diagram smart agriculture">
+    </div>
+  </section>
+
+  <!-- Section 3: Technology -->
+  <section id="technology" class="tech">
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>IoT Sensors (Temperature, Humidity, Soil Moisture)</li>
+      <li>Microcontrollers: Arduino / Raspberry Pi</li>
+      <li>Wireless Communication: Wi-Fi, LoRa, NB-IoT</li>
+      <li>Cloud Data Storage & Analytics</li>
+      <li>AI-based Crop Prediction & Anomaly Detection</li>
+      <li>Dashboard and Remote Monitoring</li>
+    </ul>
+
+    <h3>System Architecture</h3>
+    <p>Explain the flow: sensor → gateway → cloud → analytics → dashboard/actuation.</p>
+
+    <h3>Data Analytics & AI</h3>
+    <p>Discuss how AI models predict yield, detect pests/diseases, optimize irrigation, etc.</p>
+
+    <div class="images">
+      <img src="https://pub.mdpi-res.com/applsci/applsci-12-03396/article_deploy/html/images/applsci-12-03396-g007.png?1648367605=" alt="AI crop prediction">
+      <img src="https://farmonaut.com/wp-content/uploads/2024/10/Revolutionizing-Agriculture-How-AI-is-Transforming-Precision-Farming-and-Crop-Yield-Prediction_2.jpg" alt="Precision Farming AI">
+      <img src="https://qtxasset.com/quartz/qcloud4/media/image/sensorsmag/1546639333/Sensors_Insights_2019-01-10_Hero.png/Sensors_Insights_2019-01-10_Hero.png?VersionId=a4YMoweVMOgTsAAbaZptnzYDsadHXQYI" alt="Sensor insights agriculture">
+    </div>
+  </section>
+
+  <!-- Section 4: Gallery -->
+  <section id="gallery" class="gallery">
+    <h2>Gallery & Field Images</h2>
+    <p>Here are photos from the field, sensor installations, dashboard screenshots and more.</p>
+    <div class="images">
+      <img src="https://images.pond5.com/drone-scanning-farm-analyze-smart-footage-081693475_iconl.jpeg" alt="Drone scanning farm">
+      <img src="https://b4025539.smushcdn.com/4025539/wp-content/uploads/smart-farming-with-agriculture-iot-1-1024x576.png?lossy=2&strip=0&webp=1" alt="Smart farming IoT">
+      <img src="https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/blt6b5b1f2876a08f4e/6409095ce5335a38e1139427/0313W2-3443-1800x1012.jpg" alt="Field image smart agriculture">
+    </div>
+  </section>
+
+  <!-- Section 5: Contact -->
+  <section id="contact" class="contact">
+    <h2>Get Involved</h2>
+    <p>Whether you’re a farmer, researcher, developer or sponsor — we’d love to hear from you.</p>
+
+    <div class="flex-row">
+      <div>
+        <h3>For Farmers</h3>
+        <p>Want to join the project? Fill out our farmer registration form to get sensor kits and training.</p>
+        <p><a href="#">Farmer Signup Form (link)</a></p>
+      </div>
+      <div>
+        <h3>For Developers / Researchers</h3>
+        <p>Interested in contributing? Check our GitHub repo for code, documentation and open-data.</p>
+        <p><a href="#">GitHub Repository (link)</a></p>
+      </div>
+    </div>
+
+    <h3>Contact Info</h3>
+    <p>Email: ghanshammorkhandikar225@gmail.com</p>
+    <p>Location: Vallabh-Nagar,Pune</p>
+
+    <div class="images">
+      <img src="https://www.cropin.com/wp-content/uploads/2024/02/Agriculture-technology-empowering-farmers.webp" alt="Farmers meeting tech">
+      <img src="https://www.teamtweaks1-blog.s3.us-east-2.amazonaws.com/blog/wp-content/uploads/2022/02/23121653/The-Future-of-Smart-Farming-using-IoT-compressed-scaled.jpg" alt="Future smart farming">
+      <img src="https://cdn.jiokrishi.com/KMSOPEN/website/images/contact-us-iot-banner.webp" alt="Contact us smart agriculture">
+    </div>
+  </section>
+
+  <footer>
+    <p>Presented by [Ghansham Morkhandikar] | Academic Project</p>
+  </footer>
+
+</body>
+</html>
